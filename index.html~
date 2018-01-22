@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSI Techno Vishwa–Region </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  .jumbotron {
+      background-color: #6F4Ab6;
+      color: #fff;
+      padding: 150px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #6F4Ab6;
+  }
+  .carousel-indicators li {
+      border-color:  #6F4Ab6;
+  }
+  .carousel-indicators li.active {
+      background-color:  #6F4Ab6;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #f4511e;
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: black;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">CSI Techno Vishwa–Region</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#kshitij">EVENTS </a></li>
+
+
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#register">REGISTER</a></li>
+                <li><a href="#com">COMMITTEE</a></li>
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--
+
+      <div class="row">
+
+<div class="col-sm-2">
+        <div class="sidebar-nav">
+      <div class="navbar navbar-fixed" role="navigation">
+       <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">ITSF</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#itsf">ITSF</a></li>
+        <li><a href="#kshitij">KSHITIJ </a></li>
+        <li><a href="#services">GALLERY</a></li>
+
+
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#more">MORE</a></li>
+      </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+
+<div class="col-sm-10">
+-->
+
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+
+   <img src="ilya-pavlov-87438.jpg" width="100%" height="150px"  >
+
+
+      <div class="carousel-caption" style="co">
+
+        <p>Earn Code</p>
+      </div>
+    </div>
+
+    <div class="item">
+   <img src="rene-bernal-353739.jpg" width="100%" height="150px"  >
+
+
+      <div class="carousel-caption" style="co">
+
+        <p>Role Play</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="tech.png" width="100%" height="150px"  >
+
+
+      <div class="carousel-caption" style="co">
+
+        <p>Techno Hunt</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="domenico-loia-310197.jpg" width="100%" height="150px"  >
+
+
+      <div class="carousel-caption" style="co">
+
+        <p>Web Design</p>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+<center><h2>Computer Society of India
+ Regional Level Students’Convention 2017</h2>
+<h1 style="color:red" >“CSI Techno Vishwa –Region VI”</h1>
+
+<h2>2 & 3 January, 2018<h2>
+ <h2>TWO DAYS TECHNICAL EVENTS</h2>
+ <p>Organized by</p>
+ <img src="logo1.png" width="150px" height="150px"> &nbsp&nbsp&nbsp
+   <img src="logo.png" width="150" height="150"  >
+
+<h3> Department of Computer Engineering &
+Information Technology
+</h3>
+BRACT’s
+Vishwakarma Institute of
+Information Technology
+Kondhawa (BK), Pune
+
+ </center>
+      <h2 class="text-center">ABOUT CSI VIIT BRANCH
+</h2>
+<ul >
+        <li > CSI VIIT Student branch started in 2010
+
+           </li>
+        <li >
+More than 500 students registered in the first
+two years itself.
+        <li >Currently more than 750+ students are
+members of the branch
+       </li>
+       <li>It is instrumental in the growth and
+development of many Computer and IT
+students.
+</li>
+<li> One of the most active student branches
+around.</li>
+<li>
+CSI branch of VIIT organising national
+conference for UG & PG students since last 5
+years</li>
+       <li> Organized many expert lectures, workshops,
+seminars, competitions by branch</li>
+<li>Conducted more than 70+ events till date</li>
+
+</div>
+
+<div id="kshitij" class="container-fluid">
+ <div class="row">
+    <div class="col-sm-6">
+
+      <h2>Panel Discussion</h2>
+         <ul >
+        <li >Global Engineering: Current Scenario and
+Challenges”
+           </li>
+        <li >
+ 90 minutes panel discussion
+
+        <li >Participation of renowned Industry experts
+       </li>
+       <li>Discussion on latest IT industry trends & need to
+change to cope up with it
+</li>
+<li>Event Head: Nikhat +91-9921328816</li>
+
+       </ul>
+
+
+      <h2>Earn Code</h2>
+         <ul >
+        <li >2 Rounds           </li>
+
+        <li >
+First is MCQ Round C/C++ </li>
+        <li >
+Second is Coding Round (C/C++)</li>
+        <li >
+Buy Questions with virtual wallet money, Solve & earn MORE </li>
+Team Size: Maximum 2</li>
+<li>Event Head: Rahul Shah +91-9623654486</li>
+
+
+       </ul>
+
+<h2>Role Play</h2>
+<ul>
+  <li>Act out any technical computer related topics &
+concepts in max. 10 minutes</li>
+
+<li>Particpation: Offline/Online</li>
+<li>Event Head: Akash Joshi +91-7507743428</li>
+
+</ul>
+
+<h2>Techno Hunt</h2>
+<ul>
+<li>3 Rounds</li>
+<li>First : Finding something on computer</li>
+<li>Second : Race with time</li>
+<li>Third: Find the Final Treasure </li>
+<li> Team Size: Maximum 2</li>
+<li>Event Head: Sanket Satav +91-968943643</li>
+
+</ul>
+
+<h2>Web Design</h2>
+<ul>
+  <li>Make an iteractive website using CMS tools like
+Wordpress, Joomala, Dr upal, Elgg, Ghost etc</li>
+    <li>Problem Statements will be given runtime.</li>
+    <li>Event Head: Shubham Jaiswal +91-7758069593</li>
+
+
+</ul>
+<h2>Business Intelligence Tools Workshop
+</h2>
+<ul>
+<li>
+Latest business intelligence tools like Tensor flow,
+IBM analytics</li>
+<li>Latest business intelligent trends
+</li>
+<li>BI using big data & Machine Learning
+</li>
+<li>Event Head: Omkar Sarkate +91-8855898845</li>
+
+    </ul>
+    <h2>Privacy and Security in Online Social Media Workshop
+</h2>
+<ul>
+  <li>Discussion on current security issues</li>
+  <li>Concern empirical approach to handleonline social
+media issues</li>
+<li>Event Head: Priyanka Birajdar +91-9011814266</li>
+
+</ul>
+  </div>
+    <center>
+    <div class="col-sm-6">
+<!-- <img src="shubham.jpg" alt="Shubham Jaiswal" width="255" height="255"> -->
+     </div>
+     </center>
+</div>
+
+
+<!-- Container (Services Section) -->
+
+
+<!-- Container (Portfolio Section) -->
+
+
+
+
+<!-- Container (Pricing Section) -->
+
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT US</h2>
+   <div class="row">
+    <div class="col-sm-6">
+
+      <p>Shubham Jha</p>
+      <p><span class="glyphicon glyphicon-phone"></span>+91,8698880717</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> shubham.jha@viit.ac.in</p>
+
+    </div>
+    <div class="col-sm-6">
+      <p>Sanket Satav</p>
+      <p><span class="glyphicon glyphicon-phone"></span>+91,9689434643</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> sanket.satav@viit.ac.in</p>
+
+    </div>
+
+
+	 <iframe height="400px" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Vishwakarma+Institute+of+Information+Technology,+Betal+Nagar,+Kondhwa+Khurd,+Pune,+Maharashtra&amp;aq=0&amp;oq=vishwakarma+institute+of+infor&amp;sll=20.984928,82.752628&amp;sspn=41.698271,75.673828&amp;ie=UTF8&amp;hq=Vishwakarma+Institute+of+Information+Technology,&amp;hnear=Betal+Nagar,+Kondhwa+Khurd,+Pune,+Maharashtra&amp;ll=18.460227,73.883645&amp;spn=0.005272,0.009238&amp;t=m&amp;z=14&amp;iwloc=A&amp;cid=7803795589700531987&amp;output=embed"></iframe>
+  </div>
+</div>
+<div id="register" class="container-fluid bg-grey">
+    <h2 class="text-center">REGISTER</h2>
+<div class="row">
+    <div class="col-sm-12">
+
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd7GQpdP86xMuG1Ih1QwZUZYmi_dXi9dKEVlo_8K02OGLQdIQ/viewform?embedded=true#start=embed" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+</div>
+</div>
+
+<div id="com" class="container-fluid bg-grey">
+  <h4 class="text-center" style="color: red">CHIEF PATRON</h4>
+  <p class="text-center">Hon. Shri. Rajkumar Agarwal<br>
+Chief Truste, BRACT, Pune
+</p>
+ <h4 class="text-center" style="color: red"> PATRONS</h4>
+  <p class="text-center">Hon. Shri. Bharat Agarwal<br>
+Managing Trustee, BRACT, Pune
+</p>
+ <h4 class="text-center" style="color: red">ADVISORY COMMITTEE</h4>
+  <div class="row">
+    <div class="col-sm-6">
+  <p >Mr. Sanjay Mohapatra<br>
+President, CSI
+
+</p>
+</div>
+<div class="col-sm-6">
+  <p >Mr. Gautam Mahapatra<br>
+Vice President, CSI
+
+</p>
+</div>
+</div>
+ <div class="row">
+    <div class="col-sm-6">
+  <p >Prof. A K Nayak<br>
+Hon Secretary, CSI
+
+</p>
+</div>
+<div class="col-sm-6">
+  <p >Mr. Manas Ranjan Pattnaik<br>
+Hon Treasurer, CSI
+
+</p>
+</div>
+</div>
+ <div class="row">
+    <div class="col-sm-6">
+  <p >Dr. Anirban Basu<br>
+Immediate Past President,
+CSI
+
+</p>
+</div>
+<div class="col-sm-6">
+  <p >
+Dr. Shirish S Sane<br>
+Regional Vice President,
+Region-VI, CSI
+
+</p>
+</div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+  <p >Mr. S Ramasamy<br>
+National Student Coordinator,
+CSI
+
+</p>
+</div>
+<div class="col-sm-6">
+  <p >
+
+Dr. M U Kharat<br>
+Regional Student
+Coordinator, Region-VI, CSI
+</p>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+  <p >Prof. Kavita A Sultanpure<br>
+State Student Coordinator,
+Maharashtra State,CSI
+
+</p>
+</div>
+<div class="col-sm-6">
+  <p >
+
+Dr. Yogesh Deshpande<br>
+Dean-STEM, Vishwakarma
+University, Pune
+
+</p>
+</div>
+</div>
+
+ <h4 class="text-center" style="color: red">ORGANIZING CHAIR
+</h4>
+  <p class="text-center">Dr. B.S. Karkare<br>
+Director, VIIT, Pune
+</p>
+<h4 class="text-center" style="color: red">PROGRAM CHAIR
+</h4>
+  <div class="row">
+    <div class="col-sm-6">
+  <p >Dr. S.R Sakhare<br>
+Head, Computer Engineering
+Department
+
+
+</p>
+</div>
+<div class="col-sm-6">
+  <p >
+
+Prof. N. P. Pathak<br>
+Head, Information
+Technology Department
+</p>
+</div>
+</div>
+<h4 class="text-center" style="color: red">EVENT CHAIR
+</h4>
+
+  <p class="text-center" >Mrs. S R Rathi<br>
+CSI Institute Coordinator
+
+
+</p>
+
+<h4 class="text-center" style="color: red">ORGANIZING COMIITEE
+
+</h4>
+<div class="row">
+    <div class="col-sm-6">
+  <p >Mrs. P M Shelke<br>
+CSI-IT Dept Coordinator
+
+</p>
+</div>
+<div class="col-sm-6">
+  <p >
+
+ Mr. R G Masand<br>
+ CSI-Computer Dept Coordinator
+</p>
+</div>
+</div>
+
+</body>
+
+ <div class="footer_new text-center" id="myNavbar">
+   <h2 > Social Media</h2>
+        <a href="https://www.instagram.com/csiviit">INSTAGRAM</a>&nbsp &nbsp &nbsp
+        <a href="https://www.facebook.com/csiviit">FACEBOOK</a>&nbsp &nbsp &nbsp
+        <a href="twitter.com/csiviit">TWITTER </a>&nbsp &nbsp &nbsp
+
+<br>
+        <p >Developed by Shubham Jaiswal</a>
+
+    </div>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+
+</html>
