@@ -1,10 +1,17 @@
 ---
 head: 'Akash Joshi'
-title: ''
+title: 'नमस्ते (Namaste) 🙏🏼'
 ---
-# नमस्ते (Namaste) !
+<br />
+<h1 align="center"> नमस्ते (Namaste) 🙏🏼 ! <br />
+ I am Akash Joshi ! </h1>
 
-**🕉Welcome to my Space🕉**
+<br /><br />
+
+<img src="/me.png" style="max-height:300px;margin: 0 auto;display: block;"/>
+<br /><br />
+
+## I am a
 
 - Full Stack Engineer @ [GigIndia](https://gigindia.in)
 - Open-source @ [MetaCall](https://metacall.io), [The Devs](https://thedevs.network/)
@@ -29,4 +36,4 @@ Backed by my experience in writing blogs & anchoring at events.
 
  *Use the side-bar to navigate between my portfolio or writing !*
 
-<a href='https://ko-fi.com/B0B4MFVE' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=1' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href="https://www.buymeacoffee.com/akashjoshi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
