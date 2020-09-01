@@ -1,39 +1,41 @@
 ---
-title: 'Portfolio'
+title: "Portfolio 🛠"
 ---
+
 # Portfolio
 
 [[toc]]
 
-## Articles Written ✍🏼
+Since starting to build this page, the amount of work I've done has increased exponentially, so I also recommend checking out my [GitHub](https://github.com/akash-joshi) and [ProductHunt](https://www.producthunt.com/@akash_joshi/made) to see the rest of my work.
 
-This section will contain the links to where I pubished my articles online.
-
-1. Converting Your JS Boiler-Plate into NPM Modules : The Definitive Guide
-
-[HackerNoon Link](https://hackernoon.com/converting-your-js-boiler-plate-into-npm-modules-the-definitive-guide-3dfa0f9f0a9c)
-
-2. Publishing a JavaScript Library Online: The Definitive Guide
-
-[HackerNoon Link](https://hackernoon.com/publishing-a-javascript-library-online-the-definitive-guide-142547baa70d)
-
-3. Get Firestore data from a Cloud Function
-
-[Medium Link](https://medium.com/@akashsjoshi/get-firestore-data-from-a-cloud-function-d8b1c0d0690a)
-
-## Backend Development ⏪
+## Backend Development
 
 A list of backend and API-based applications that I have built.
 
-1. SiteSeer Website Tracker - A Node based tool which tracks websites for changes by using Mongo and JSSoup. It is hosted as a bot on Telegram, which is used to send notifications on change to user.
+<ol>
+  <li>Madulus - A completely programmable I've built for Telegram which also acts as my personal assisstant, sending me status updates about important stuff.
+
+  [Madulus](https://github.com/akash-joshi/madulusbot)
+
+  </li>
+
+  <li>SiteSeer Website Tracker - A Node based tool which tracks websites for changes by using Mongo and JSSoup. It is hosted as a bot on Telegram, which is used to send notifications on change to user.
 
 [SiteSeer](https://github.com/akash-joshi/SiteSeer-Website-Tracker)
 
-2. Blog Project - Project to create and view blogs. Backend is in Node and database used is MySQL
+</li>
+
+<li>
+Blog Project - Project to create and view blogs. Backend is in Node and database used is MySQL
 
 [Blog Project](https://github.com/akash-joshi/blogproject)
 
-## Data Science 📈
+</li>
+
+</ol>
+
+
+## Data Science
 
 1. Twitter Sentiment Analysis - A project I had built for college
 
@@ -43,7 +45,7 @@ A list of backend and API-based applications that I have built.
 
 [Color Picker](https://color.js.org)
 
-## Desktop Applications 🖥
+## Desktop Applications
 
 These are the Desktop Applications I frequently contribute to :
 
@@ -51,7 +53,9 @@ These are the Desktop Applications I frequently contribute to :
 
 [PennyWise](https://github.com/kamranahmedse/pennywise)
 
-## Libraries Published 📓
+## Libraries Published
+
+Several of my libraries, being downloaded by ~2000+ people per week, are [available here](https://www.npmjs.com/~akash-joshi)
 
 1. Neural Color Picker - An RNN based JS library to help pick colors
 
@@ -61,13 +65,13 @@ These are the Desktop Applications I frequently contribute to :
 
 [avstream.js](https://avstream.js.org)
 
-## Mobile Applications 📱
+## Mobile Applications
 
 1. Open-chat-cordova - Rebuilt my chatting webapp in cordova for mobile platforms
 
 [Open-Chat.apk](https://github.com/akash-joshi/open-chat-cordova/releases)
 
-## Personal Applications 🙋‍
+## Personal Applications
 
 1. npm card - Built an npm card inspired from a friend to showcase all my links
 
@@ -77,7 +81,7 @@ These are the Desktop Applications I frequently contribute to :
 
 [NextJS config](https://github.com/akash-joshi/nextjs-config)
 
-## Productivity Applications 🏋️‍
+## Productivity Applications
 
 1. PWA Protocol Tester - Test HTTP redirects in a PWA environment
 
@@ -91,7 +95,7 @@ These are the Desktop Applications I frequently contribute to :
 
 [Mdm](https://github.com/akash-joshi/mdm)
 
-## Progressive Web Apps 🌎
+## Progressive Web Apps
 
 These are the repositories for which I have built a PWA. Each of these work offline and are installable :
 
@@ -115,4 +119,4 @@ These are the repositories for which I have built a PWA. Each of these work offl
 
 [Kutt.it](https://kutt.it)
 
-<a href='https://ko-fi.com/B0B4MFVE' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=1' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href="https://www.buymeacoffee.com/akashjoshi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>

@@ -6,21 +6,14 @@ module.exports = {
     ["link", { rel: "manifest", href: "manifest.json" }],
     [
       "meta",
-      {
-        name: "twitter:card",
-        content: "summary_large_image",
-      },
-    ],
-    [
-      "meta",
-      { name: "twitter:image", content: "https://www.akashj.com/coverimage.png" },
+      { name: "og:image", content: "https://www.akashj.com/talks/2.jpeg" },
     ],
   ],
   base: "/",
   description: "✍️Tech Writer 🚀FullStack 🖥️OpenSource",
   ga: "UA-136873075-1",
   themeConfig: {
-    defaultTheme: { dark: [18, 6], light: [6, 18] },
+    defaultTheme: "dark",
     nav: [
       { text: "🖥 GitHub", link: "https://github.com/akash-joshi" },
       { text: "🐦 Twitter", link: "https://twitter.com/akashjdotcom" },
@@ -32,22 +25,15 @@ module.exports = {
     sidebar: {
       "/": [
         "/",
-        ["https://records.akashj.com", "Latest Blogs"],
         "articles",
         "portfolio",
         "talks",
-        [
-          "https://www.youtube.com/channel/UCmU8DVp4QZ-9r5n2kh-RzBw",
-          "YouTube ▶️",
-        ],
+        "daily-reads",
+        "open-source-with-akash",
+        ["https://www.youtube.com/channel/UCmU8DVp4QZ-9r5n2kh-RzBw", "YouTube ▶️"],
+        ["https://records.akashj.com", "Blog"]
       ],
     },
   },
-  theme: "default-prefers-color-scheme",
-  postcss: {
-    plugins: [
-      require("css-prefers-color-scheme/postcss"),
-      require("autoprefixer"),
-    ],
-  },
+  theme: 'default-prefers-color-scheme',
 };

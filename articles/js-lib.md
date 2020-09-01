@@ -7,7 +7,7 @@ status: draft
 
 ![Header Image](/pic2.png)
 
-This is a continuation of my [previous guide](/boiler-npm.html). Refer it to learn how to publish code to npm
+This is a continuation of my [previous guide](/articles/boiler-npm.html). Refer it to learn how to publish code to npm
 
 This article focuses on publishing code for use in a **browser**.
 
@@ -28,7 +28,7 @@ To publish it to a CDN :
 
 1. Use ```npm init -y``` to initialize a ```package.json``` for the repository.
 
-2. Publish it to npm via the steps given here : [Steps to Publish](/boiler-npm.html#_3-publishing-and-using-your-module)
+2. Publish it to npm via the steps given here : [Steps to Publish](/articles/boiler-npm.html#_3-publishing-and-using-your-module)
 
 3. Navigate to ```unpkg.com/repository-name``` according to the repository name provided by you while publishing to ```npm```. This is the CDN auto-generated from npm.
 
