@@ -13,26 +13,21 @@ module.exports = {
     ],
     [
       "meta",
-      { name: "twitter:image", content: "https://www.akashj.com/coverimage.png" },
+      {
+        name: "twitter:image",
+        content: "https://www.akashj.com/coverimage.png",
+      },
     ],
   ],
   base: "/",
-  description: "✍️Tech Writer 🚀FullStack 🖥️OpenSource",
+  description: "🗣 Tech Speaker ✍️ Tech Writer 🚀 FullStack Developer",
   ga: "UA-136873075-1",
   themeConfig: {
     defaultTheme: { dark: [18, 6], light: [6, 18] },
-    nav: [
-      { text: "🖥 GitHub", link: "https://github.com/akash-joshi" },
-      { text: "🐦 Twitter", link: "https://twitter.com/akashjdotcom" },
-      {
-        text: "🌐 LinkedIn",
-        link: "https://www.linkedin.com/in/akash-s-joshi",
-      },
-    ],
+    nav: [],
     sidebar: {
       "/": [
         "/",
-        ["https://records.akashj.com", "Latest Blogs"],
         "articles",
         "portfolio",
         "talks",

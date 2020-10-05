@@ -1,7 +1,8 @@
 ---
-head: 'Akash Joshi'
-title: 'नमस्ते (Namaste) 🙏🏼'
+head: "Akash Joshi"
+title: "नमस्ते (Namaste) 🙏🏼"
 ---
+
 <br />
 <h1 align="center"> नमस्ते (Namaste) 🙏🏼 ! <br />
  I am Akash Joshi ! </h1>
@@ -19,9 +20,15 @@ title: 'नमस्ते (Namaste) 🙏🏼'
 - Open-sourcerer on [GitHub](https://github.com/akash-joshi)
 - Indie Maker on [ProductHunt](https://www.producthunt.com/@akash_joshi/made)
 
- *Have a look at [my articles](/articles.html) or [portfolio](/portfolio.html) !*
+  _Have a look at [my articles](/articles.html) or [portfolio](/portfolio.html) !_
+
+<h2>Get in Touch</h2>
+
+- [🖥 GitHub](https://github.com/akash-joshi)
+- [🐦 Twitter](https://twitter.com/akashjdotcom)
+- [🌐 LinkedIn](https://linkedin.com/in/akash-s-joshi)
 
  <br />
-Like my content ? Get it in your mail 📩 !
+  Like my content ? Get it in your mail 📩 !
 
 <iframe style="background:white" width="100%" height="320" src="https://akash.substack.com/embed" frameborder="0" scrolling="no"></iframe>

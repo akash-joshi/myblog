@@ -1,5 +1,5 @@
 ---
-title: 'Article Archive 📝'
+title: 'Articles 📝'
 ---
 # Articles Written By Me
 
