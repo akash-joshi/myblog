@@ -12,6 +12,7 @@
   "dependencies": {
     "autoprefixer": "^9.8.0",
     "css-prefers-color-scheme": "^4.0.0",
-    "vuepress-theme-default-prefers-color-scheme": "^1.0.7"
+    "vuepress-theme-default-prefers-color-scheme": "^1.0.7",
+    "vuepress": "^1.6.0"
   }
 }
