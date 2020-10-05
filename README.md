@@ -16,7 +16,7 @@ title: "नमस्ते (Namaste) 🙏🏼"
 
 <h2>I am a</h2>
 
-- Full Stack Engineer @ [GigIndia](https://gigindia.in)
+- Full Stack Engineer at [GigIndia](https://gigindia.in)
 - Open-sourcerer on [GitHub](https://github.com/akash-joshi)
 - Indie Maker on [ProductHunt](https://www.producthunt.com/@akash_joshi/made)
 
