@@ -21,7 +21,7 @@ module.exports = {
   ],
   base: "/",
   description: "🗣 Tech Speaker ✍️ Tech Writer 🚀 FullStack Developer",
-  ga: "G-HQZ02JP815",
+  ga: "UA-136873075-1",
   themeConfig: {
     defaultTheme: { dark: [18, 6], light: [6, 18] },
     nav: [],
