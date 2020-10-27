@@ -22,7 +22,7 @@ module.exports = {
       "meta",
       {
         name: "google-site-verification",
-        content: "PAAPD1RlNpMA8SD6I0CEW",
+        content: "PAAPD1RlNpMA8SD6I0CEW-vrL4XA5MCeWoa84npmtO4",
       },
     ],
   ],
