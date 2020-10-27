@@ -18,6 +18,13 @@ module.exports = {
         content: "https://www.akashj.com/coverimage.png",
       },
     ],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "PAAPD1RlNpMA8SD6I0CEW",
+      },
+    ],
   ],
   base: "/",
   description: "🗣 Tech Speaker ✍️ Tech Writer 🚀 FullStack Developer",
