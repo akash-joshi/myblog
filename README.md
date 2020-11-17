@@ -28,6 +28,8 @@ title: "नमस्ते (Namaste) 🙏🏼"
 - [🐦 Twitter](https://twitter.com/akashjdotcom)
 - [🌐 LinkedIn](https://linkedin.com/in/akash-s-joshi)
 
+To learn how to build this page, [go here](/what.html)
+
  <br />
   Like my content ? Get it in your mail 📩 !
 
