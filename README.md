@@ -16,7 +16,7 @@ title: "Namaste"
 
 <h2>I am a</h2>
 
-- Person with big title at [DelightChat](https://delightchat.io)
+- Person with Title at [DelightChat](https://delightchat.io)
 - Open-sourcerer on [GitHub](https://github.com/akash-joshi)
 - Indie Maker on [ProductHunt](https://www.producthunt.com/@akash_joshi/made)
 
