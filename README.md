@@ -1,6 +1,6 @@
 ---
 head: "Akash Joshi"
-title: "नमस्ते (Namaste) 🙏🏼"
+title: "Namaste"
 ---
 
 <br />
@@ -16,7 +16,7 @@ title: "नमस्ते (Namaste) 🙏🏼"
 
 <h2>I am a</h2>
 
-- Full Stack Engineer at [GigIndia](https://gigindia.in)
+- Person with big title at [DelightChat](https://delightchat.io)
 - Open-sourcerer on [GitHub](https://github.com/akash-joshi)
 - Indie Maker on [ProductHunt](https://www.producthunt.com/@akash_joshi/made)
 
