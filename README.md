@@ -25,7 +25,7 @@ title: "Namaste"
 <h2>Get in Touch</h2>
 
 - [🖥 GitHub](https://github.com/akash-joshi)
-- [🐦 Twitter](https://twitter.com/akashjdotcom)
+- [🐦 Twitter](https://twitter.com/thewritingdev)
 - [🌐 LinkedIn](https://linkedin.com/in/akash-s-joshi)
 
  <br />
